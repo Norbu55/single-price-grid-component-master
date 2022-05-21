@@ -1,0 +1,128 @@
+@import url(https://fonts.google.com/specimen/Karla);
+
+:root {
+  /* primary color */
+  --cyan: hsl(179, 62%, 43%);
+  --bright-yellow: hsl(71, 73%, 54%);
+
+  /* Neutral Color */
+  --light-gray: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
+
+  --Font-size: 16px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--light-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  height: 400px;
+  width: 600px;
+  /* border: 2px solid black; */
+  border-radius: 10px;
+}
+.first-section {
+  background-color: white;
+  height: 40%;
+  border-radius: 10px 10px 0 0;
+}
+.second-section {
+  background-color: var(--cyan);
+  width: 300px;
+  border-radius: 0 0 0 10px;
+}
+.third-section {
+  background-color: var(--cyan);
+  opacity: 0.8;
+  width: 300px;
+  border-radius: 0 0 10px 0;
+}
+.first-div {
+  height: 240px;
+  display: flex;
+}
+button {
+  border: 2px solid var(--bright-yellow);
+  border-radius: 5px;
+  background-color: var(--bright-yellow);
+  color: white;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  padding: 10px 80px;
+}
+.section-section-first-para {
+  font-weight: 700;
+  font-size: 19px;
+  margin-top: 30px;
+  margin-left: 30px;
+  color: white;
+}
+.price {
+  margin-left: 30px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.month {
+  position: absolute;
+  left: 70px;
+  color: white;
+  opacity: 0.6;
+}
+.dollar {
+  /* padding: 5px; */
+  position: relative;
+  top: -18px;
+  margin: 5px;
+  font-size: 35px;
+  color: white;
+}
+.access {
+  color: white;
+  font-size: 16px;
+  margin: 10px 30px 0;
+}
+.third-section-first-para {
+  font-weight: 700;
+  font-size: 19px;
+  margin-top: 30px;
+  margin-left: 30px;
+  color: white;
+}
+.third-section-second-para {
+  /* margin-top: 20px;
+  margin-left: 20px; */
+  margin: 20px 30px;
+  line-height: 1.2;
+  color: white;
+  opacity: 0.7;
+}
+.first-h2 {
+  color: var(--cyan);
+  /* margin: 30px 20px; */
+  /* margin-top: 30px; */
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.first-section-first-para {
+  color: var(--bright-yellow);
+  font-size: 18px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.first-section-second-para {
+  color: var(--grayish-blue);
+  padding-top: 10px;
+  padding-left: 20px;
+}
